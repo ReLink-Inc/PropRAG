@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```
 
 ### 2. API Keys
-PropRAG utilizes LLMs for offline proposition and entity extraction, and potentially as a reader for end-to-end QA.
+PropRAG utilizes LLMs for offline proposition and entity extraction, and potentially as a reader for end-to-end QA, Currently only OpenRouter API is supported.
 
 *   **OpenRouter API Key:**
     Create a file named `openrouter_api_key.txt` in the root directory of this repository and paste your OpenRouter API key into it.
