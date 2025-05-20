@@ -1,0 +1,8 @@
+from .ner import prompt_template as ner_template
+from .ner_query import prompt_template as ner_query_template
+from .triple_extraction import prompt_template as triple_extraction_template
+from .rag_qa_musique import prompt_template as rag_qa_musique_template
+from .ircot_hotpotqa import prompt_template as ircot_hotpotqa_template
+from .ircot_musique import prompt_template as ircot_musique_template
+from .proposition_extraction import prompt_template as proposition_extraction_template
+from .triple_contextualization import prompt_template as triple_contextualization_template
