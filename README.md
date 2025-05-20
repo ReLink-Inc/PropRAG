@@ -33,8 +33,6 @@ PropRAG utilizes LLMs for offline proposition and entity extraction, and potenti
 *   **OpenRouter API Key:**
     Create a file named `openrouter_api_key.txt` in the root directory of this repository and paste your OpenRouter API key into it.
 
-*   **(Optional) Other API Keys:** If you plan to use other LLM providers, configure their API keys as environment variables or in a configuration file as per their SDK instructions.
-
 ### 3. Supported LLMs for Extraction/Reading
 *   **Currently Supported for Extraction (as used in the paper):** Llama-3.3-70B-Instruct (via Nebius AI Studio or compatible OpenRouter endpoint).
 *   **Coming Soon:** Support for GPT-4o-mini and other models via OpenRouter.
